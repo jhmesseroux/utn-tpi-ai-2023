@@ -1,0 +1,16 @@
+:- dynamic objetivo/2.
+:- dynamic edad/2.
+:- dynamic genero/2.
+
+edad(1,'13-20').
+edad(2,'21-30').
+edad(3,'31-45').
+edad(3,'46-X').
+
+objetivo(1,'Perder peso').
+objetivo(2,'Ganar músculo).
+objetivo(3,'Mejorar la resistencia').
+
+genero(H,hombre).
+genero(M,mujer).
+
