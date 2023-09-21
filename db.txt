@@ -14,3 +14,48 @@ objetivo(3,'Mejorar la resistencia').
 genero(H,hombre).
 genero(M,mujer).
 
+ejercicio_musculo(Nombre_Ejercicio,Nombre_Musculo).
+ejercicio_musculo('Escapulares','Espalda').
+
+
+Escapulares, Espalda
+Dorsales en polea, Espalda
+Remo Parado, Espalada
+Press Plano, Pecho
+Press inclinado, Pecho
+Press TRX, Pecho
+Press militar, Hombros
+vuelos laterales, Hombros
+Press con Barra, Hombros
+Prensa de piernas inclinadas, Isquios
+Peso muerto rumano, Isquios 
+Flexiones de caderas en máquinas, Isquios
+Curl con Barra w, Biceps
+Curl con mancuernas, Biceps
+Curl con polea alta, Biceps
+Sentadilla, Cuadriceps 
+Prensa de piernas, cuadriceps
+Sentadilla Búlgara,cuadriceps  
+Elevaciones de Talones Unilaterales, Gemelos
+Salto Tijera, Gemelos
+Elevaciones con talones en máquina smith, Gemelos
+Sentadilla sumo, aductores 
+Estocadas laterales, aductores
+Sentadilla con bola suiza, aductores 
+Extensiones de muñeca con banda elástica, antebrazo 
+Curl de muñeca con barra, antebrazo 
+Flexiones de muñeca con cuerda en polea alta, antebrazo
+Shrugs en máquina Smith, Trapecio 
+Encogimiento en Barra T, Trapecio 
+Encogimiento con Mancuernas, Trapecio
+Elevaciones con piernas elevadas, Abdominales
+Elevaciones de piernas en suspensión, Abdominales 
+Giros rusos, Abdominales  
+Superman, lumbares 
+Hiperextensiones en el suelo, Lumbares 
+Plancha inversa, Lumbares 
+Hiperextensiones en máquinas, Lumbares 
+   
+
+
+
