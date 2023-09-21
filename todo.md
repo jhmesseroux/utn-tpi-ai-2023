@@ -7,3 +7,7 @@
 5. Metas a corto y largo plazo
 
 https://github.com/jhmesseroux/utn-tpi-ai-2023
+
+# salidas
+
+1.
