@@ -56,6 +56,17 @@ Hiperextensiones en el suelo, Lumbares
 Plancha inversa, Lumbares 
 Hiperextensiones en máquinas, Lumbares 
    
+% Entrada 
+% Personalizada || No personalizada
+% Hipertrofia || Fuerza
+% En Casa || Gym 
+% Frecuencia.. en hora por dia(entre 1 y 3)
 
-
+% Salida 
+% Ejercicio 1 
+% Ejercicio 2 
+% ....  
+% Ejercio N 
+%   Primer Semana   Segunda Semana   Tercer Semana .. Quinta Semana
+%    Series x Rep   Series x Reps    Series x Reps   Series x rep
 
