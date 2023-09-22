@@ -11,6 +11,10 @@ experiencia(1, 'Sin experiencia').
 experiencia(2, 'Ejercicio esporádico').
 experiencia(3, 'Ejercicio regular').
 
+frecuencia(1).
+frecuencia(2).
+frecuencia(3).
+
 ejercicio_musculo('Escapulares', espalda).
 ejercicio_musculo('Dorsales en polea', espalda).
 ejercicio_musculo('Remo Parado', espalda).
@@ -48,6 +52,40 @@ ejercicio_musculo('Superman', lumbares).
 ejercicio_musculo('Hiperextensiones en el suelo', lumbares).
 ejercicio_musculo('Plancha inversa', lumbares).
 ejercicio_musculo('Hiperextensiones en máquinas', lumbares).
+
+ejercicio_dificultad(NombreEjercicio, NiveldeDificultad).
+
+ejercicio_equipamiento(NombreEjercicio, EquipamientoNecesario).
+%Ej. ejercicio_equipamiento('Press Plano', barra).
+
+ejercicio_apto_casa(NombreEjercicio) :- ejercicio_equipamiento(NombreEjercicio, nada).
+
+consulta:-
+    writeln("Bienvenid@ a la consulta de rutinas, por favor ingrese los datos necesarios"),
+    writeln("* - ¿Cuál es su objetivo?"),
+    writeln("1 - Hipertrofia"),
+    writeln("2 - Fuerza"),
+    read(OpcionObjetivo),
+    objetivo(OpcionObjetivo, _),
+    writeln("* - ¿Cómo calificaría su experiencia?"),
+    writeln("1 - Sin experiencia"),
+    writeln("2 - Ejercicio esporádico"),
+    writeln("3 - Ejercicio regular"),
+    read(OpcionExperiencia),
+    experiencia(OpcionExperiencia, _),
+    writeln("* - ¿Dónde realizará la rutina?"),
+    writeln("1 - En casa"),
+    writeln("2 - En un gimnasio"),
+    read(OpcionUbicacion),
+    ubicacion(OpcionUbicacion, _),
+    writeln("* - ¿Con cuánta frecuencia?"),
+    writeln("1 - "),
+    writeln("2 - "),
+    writeln("3 - "),
+    read(OpcionFrecuencia),
+    frecuencia(OpcionFrecuencia),
+    consulta.
+consulta.
 
 
 % Entrada
