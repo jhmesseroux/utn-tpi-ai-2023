@@ -1,0 +1,61 @@
+
+:- dynamic objetivo/2.
+:- dynamic experiencia/2.
+:- dynamic ubicacion/2.
+:- dynamic frecuencia/2.
+:- dynamic ejercicio_musculo/4.
+
+personalizar(1, 'No personalizada').
+personalizar(2, 'Personalizada').
+
+objetivo(1, hipertrofia).
+objetivo(2, fuerza).
+
+ubicacion(1, casa).
+ubicacion(2, gimnasio).
+
+experiencia(1, 'Sin experiencia').
+experiencia(2, 'Ejercicio espor�dico').
+experiencia(3, 'Ejercicio regular').
+
+frecuencia(1).
+frecuencia(2).
+frecuencia(3).
+
+ejercicio_musculo('Escapulares', espalda,[1,2],2).
+ejercicio_musculo('Press Plano', pecho,[1,2],2).
+ejercicio_musculo('Press inclinado', pecho,[1,2],2).
+ejercicio_musculo('vuelos laterales', hombros,[1,2],2). 
+ejercicio_musculo('Curl con mancuernas', biceps,[1,2],2).
+ejercicio_musculo('Curl con polea alta', biceps,[2],2).
+ejercicio_musculo('Dorsales en polea', espalda,[2],1).
+ejercicio_musculo('Remo Parado', espalda,[1],3).
+ejercicio_musculo('Press TRX', pecho,[1,2],2).
+ejercicio_musculo('Press militar', hombros,[1],2).
+ejercicio_musculo('Press con Barra', hombros,[2],1).
+ejercicio_musculo('Prensa de piernas inclinadas', isquios,[1,2],2).
+ejercicio_musculo('Peso muerto rumano', isquios,[1,2],2).
+ejercicio_musculo('Flexiones de caderas en m�quinas', isquios,[1,2],2).
+ejercicio_musculo('Curl con Barra w', biceps,[1,2],3).
+ejercicio_musculo('Sentadilla', cuadriceps,[2],2).
+ejercicio_musculo('Prensa de piernas', cuadriceps,[1,2],2).
+ejercicio_musculo('Sentadilla B�lgara', cuadriceps,[1],1).
+ejercicio_musculo('Elevaciones de Talones Unilaterales', gemelos,[1],2).
+ejercicio_musculo('Salto Tijera', gemelos,[1,2],2).
+ejercicio_musculo('Elevaciones con talones en m�quina smith', gemelos,[1,2],2).
+ejercicio_musculo('Sentadilla sumo', aductores,[1,2],3).
+ejercicio_musculo('Estocadas laterales', aductores,[1,2],3).
+ejercicio_musculo('Sentadilla con bola suiza', aductores,[1,2],2).
+ejercicio_musculo('Extensiones de mu�eca con banda el�stica', antebrazo,[2],2).
+ejercicio_musculo('Curl de mu�eca con barra', antebrazo ,[1,2],3).
+ejercicio_musculo('Flexiones de mu�eca con cuerda en polea alta', antebrazo,[1,2],2).
+ejercicio_musculo('Shrugs en m�quina Smith', trapecio,[1,2],2).
+ejercicio_musculo('Encogimiento en Barra T', trapecio,[1,2],2).
+ejercicio_musculo('Encogimiento con Mancuernas', trapecio,[2],2).
+ejercicio_musculo('Elevaciones con piernas elevadas', abdominales,[1,2],2).
+ejercicio_musculo('Elevaciones de piernas en suspensi�n', abdominales,[1],3).
+ejercicio_musculo('Giros rusos', abdominales,[1,2],2).
+ejercicio_musculo('Superman', lumbares,[1,2],1).
+ejercicio_musculo('Hiperextensiones en el suelo', lumbares,[2],1).
+ejercicio_musculo('Plancha inversa', lumbares,[1,2],2).
+ejercicio_musculo('Hiperextensiones en m�quinas', lumbares,[1,2],2).
