@@ -52,7 +52,7 @@ consulta.
 
 leerDatos() :- consult('datos.txt').
 
-crear_rutina(Objetivo,Experiencia,Frecuencia,Ubicacion):- consult('datos.txt'),filtrar_ejercicios(Ubicacion,[],[],ListaEjercicios,Experiencia),mostrarRutina(ListaEjercicios,Objetivo,Frecuencia),nl,nl.
+crear_rutina(Objetivo,Experiencia,Frecuencia,Ubicacion):-filtrar_ejercicios(Ubicacion,[],[],ListaEjercicios,Experiencia),mostrarRutina(ListaEjercicios,Objetivo,Frecuencia),nl,nl.
 
 
 %Metodo que filtra ejercicios por musculo y ubicacion -> Teniendo en cuenta que la base de hechos de ejercicios es ejercicio(Ejercicio,Ubicacion,Musculo) Ej: ejercicio('Pecho',gimnasio,espalda).
